@@ -14,15 +14,15 @@
 import PackageDescription
 
 let package = Package(
-  name: "swift-atomics-shims",
+  name: "AtomicsShims",
   products: [
     .library(
-      name: "_AtomicsShims",
-      targets: ["_AtomicsShims"]),
+      name: "AtomicsShims",
+      targets: ["AtomicsShims"]),
   ],
   targets: [
     .target(
-      name: "_AtomicsShims"
+      name: "AtomicsShims"
     ),
   ]
 )
